@@ -11,15 +11,16 @@ background-color: black;
 }
 
 h1{
-  margin-left: 10%;
-
+  display: flex;
+  margin-left: 5%;
 }
 
 .proyectos{
 
   color: white;
   justify-content: flex-start;
-  margin-right: 20%;
+  margin-right: 10%;
+  margin-top: 90px;
 }
 
 li{
@@ -36,15 +37,16 @@ li{
   clear: inherit;
   background-image: url("./IMAGENES/1.jpg");
   display: flex;
-  justify-content: center;
   background-size: contain;
-    align-items: center;
+
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
+  width: 80%;
+  margin-right: 5%
 }
 
 .item{
@@ -53,6 +55,7 @@ li{
   height: 400px;
   background-color: green;
   border: 4px solid darkgreen;
+  justify-content: space-between;
   margin: 20px;
   border-radius: 200px;
   background-size: cover;
@@ -65,16 +68,29 @@ background-image: url("./IMAGENES/2.jpg");
 
 .p2{
 background-image: url("./IMAGENES/3.jpg");
+
 }
 
 .p3{
 background-image: url("./IMAGENES/giphy.gif");
 background-position: center;
+width: 30px;
+height: 30px;
+}
+
+.p3:hover{
+  border-color: darkred;
+  width: 300px;
+  height: 300px;
+  transition: 2s;
+  animation-iteration-count: infinite;
 }
 
 .p4{
 background-image: url("./IMAGENES/5.jpg");
 }
+
+
 
 footer{
   color: white;
@@ -84,6 +100,7 @@ footer{
   background-color: black;
   background-repeat: no-repeat;
   justify-content: flex-end;
+
   }
 
 p{
